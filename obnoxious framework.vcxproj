@@ -253,16 +253,16 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\Aleksander\Desktop\Projekty\obnoxious framework\Cheat\Json;C:\Users\Aleksander\Desktop\Projekty\obnoxious framework\Cheat\protobuf-2.5.0\src;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Aleksander\Desktop\Projekty\obnoxious framework\Cheat\X1API;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Name\Desktop\Projekty\obnoxious framework\Cheat\Json;C:\Users\Name\Desktop\Projekty\obnoxious framework\Cheat\protobuf-2.5.0\src;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Name\Desktop\Projekty\obnoxious framework\Cheat\X1API;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
     <TargetName>obnoxious</TargetName>
     <OutDir>.\Build\Debug\</OutDir>
     <IntDir>.\Build\Bin\Debug\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\Aleksander\Desktop\Projekty\obnoxious framework\Cheat\Json;C:\Users\Aleksander\Desktop\Projekty\obnoxious framework\Cheat\protobuf-2.5.0\src;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Aleksander\Desktop\Projekty\obnoxious framework\Cheat\X1API;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Name\Desktop\Projekty\obnoxious framework\Cheat\Json;C:\Users\Name\Desktop\Projekty\obnoxious framework\Cheat\protobuf-2.5.0\src;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Name\Desktop\Projekty\obnoxious framework\Cheat\X1API;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
     <TargetName>obnoxious</TargetName>
     <OutDir>.\Build\Release\</OutDir>
     <IntDir>.\Build\Bin\Release\</IntDir>
