@@ -1,13 +1,6 @@
 # obnoxious framework ![alt text](https://i.imgur.com/ZXcfFYJ.png) ![alt text](https://i.imgur.com/RHlmKYL.png) ![alt text](https://i.imgur.com/1OKJ96Z.png) ![alt text](https://i.imgur.com/RPz95ve.png)
 Open-source cheat for Counter-Strike: Global Offensive game.
 
-## Features
-* D3D9 menu with automatically adjusted positions of the selectables.
-* Netvar manager.
-* Easy to understand VMT hooking class.
-* Debug console output.
-* Basic hooking and unhooking concept.
-
 ## Menu
 ![alt text](https://i.imgur.com/QmH3wP5.png)
 ![alt text](https://i.imgur.com/jtTu1ou.png)
@@ -23,10 +16,10 @@ Open-source cheat for Counter-Strike: Global Offensive game.
 ## Getting started
 
 ### Prerequisites
-Microsoft Visual Studio 2017 15.9.4 and Windows SDK 10.0.17763.0 (10.0.17134.0 or lower should work too but requires change in project settings) are required in order to compile obnoxious framework. If you don't have ones, you can download VS [here](https://visualstudio.microsoft.com/) (Windows SDK is installed during Visual Studio Setup).
+Microsoft Visual Studio 2017 15.9.4 and Windows SDK 10.0.17134.0 (lower should work too but requires change in project settings) are required in order to compile obnoxious framework. If you don't have ones, you can download VS [here](https://visualstudio.microsoft.com/) (Windows SDK is installed during Visual Studio Setup).
 
 ### Cloning
-The very first step in order to compile yerba is to clone this repo from GitHub to your local computer:
+The very first step in order to compile obnoxious framework is to clone this repo from GitHub to your local computer:
 ```
 git clone https://github.com/Lumm1t/obnoxious-framework.git
 ```
@@ -39,12 +32,8 @@ Then change build configuration to `Release | x86` and simply press **Build solu
 
 If everything went right you should receive `obnoxious.dll`  binary file.
 
-### Loading / Injecting into game process
+### Loading / injecting into game process
 
 Open [DLL injector](https://en.wikipedia.org/wiki/DLL_injection) and inject `obnoxious.dll` into `csgo.exe` process.
 
 Press `INSERT` key when injected and focused on CS:GO window.
-
-## Information:
-* You should install the fonts that are in the Antario folder.
-* Based on [Antario](https://github.com/Wando1423/Antario).
