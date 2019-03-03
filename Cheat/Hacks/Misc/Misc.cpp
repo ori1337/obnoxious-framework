@@ -348,10 +348,9 @@ void CMisc::CreateMove(bool &bSendPacket, float flInputSampleTime, CUserCmd* pCm
 			{
 				std::vector<std::string> RadioSpam = { "coverme" , "takepoint" , "holdpos", "regroup", "followme",
 					"takingfire", "go", "fallback", "sticktog",
-					"getinpos", "stormfront", "report", "roger",
-					"enemyspot", "needbackup", "sectorclear",
-					"inposition", "reportingin", "getout",
-					"negative", "enemydown" };
+					"report", "roger", "enemyspot", "needbackup",
+					"sectorclear", "inposition", "reportingin",
+					"getout", "negative", "enemydown" };
 
 				static DWORD lastspammed = 0;
 				if (FastCall::G().t_GetTickCount64() - lastspammed > 800)
