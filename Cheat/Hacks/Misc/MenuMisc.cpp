@@ -180,8 +180,8 @@ void CMisc::Menu()
 	{
 		X1Gui().SameLine(SAME_LINE_1);
 		X1Gui().PushItemWidth(PUSH_1);
-		VectorEx<const char* >itemsCSEng = { lolc("DRE > All"),lolc("VALVE"), lolc("Animation1"), lolc("Animation2"), lolc("Custom") };
-		VectorEx<const char* >itemsCSRus = { lolc("DRE > All"),lolc("VALVE"),lolc(u8""), lolc(u8""), lolc(u8"") };
+		VectorEx<const char* >itemsCSEng = { lolc("obnoxious > All"),lolc("VALVE"), lolc("Animation1"), lolc("Animation2"), lolc("Custom") };
+		VectorEx<const char* >itemsCSRus = { lolc("obnoxious > All"),lolc("VALVE"),lolc(u8""), lolc(u8""), lolc(u8"") };
 		DComboBox("Style##clan", u8"", ClanTagChangerStyle, itemsCSEng, itemsCSRus, "");
 
 		if (ClanTagChangerStyle == 4)
