@@ -235,8 +235,8 @@ void CLegitAim::Menu()
 			if (false)
 				X1Gui().PushItemWidth(260.f);
 
-			SliderFloats("Smooth RCS", u8"��������� ����� ������ ����", Weapons[GetWeap(SelectedWeapon)].SmoothRcs, 0, 100, u8"");
-			SliderFloats("Fov RCS", u8"��� ����� ������ ����", Weapons[GetWeap(SelectedWeapon)].FovRcs, 0, 300, u8"");
+			SliderFloats("RCS Smooth", u8"��������� ����� ������ ����", Weapons[GetWeap(SelectedWeapon)].SmoothRcs, 0, 100, u8"");
+			SliderFloats("RCS FOV", u8"��� ����� ������ ����", Weapons[GetWeap(SelectedWeapon)].FovRcs, 0, 300, u8"");
 			X1Gui().Spacing();
 			X1Gui().Separator();
 			X1Gui().Spacing();
