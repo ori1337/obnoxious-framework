@@ -101,7 +101,7 @@ void CEsp::Menu()
 			X1Gui().Spacing();
 			X1Gui().Separator();
 			X1Gui().Spacing();
-			DCheckBox("Granade trajectory", u8"���������� �������", GranadePrediction, u8"���������� ���������� ������ �������");
+			DCheckBox("Grenade trajectory", u8"���������� �������", GranadePrediction, u8"���������� ���������� ������ �������");
 			if (GranadePrediction)
 			{
 				X1Gui().Spacing();
