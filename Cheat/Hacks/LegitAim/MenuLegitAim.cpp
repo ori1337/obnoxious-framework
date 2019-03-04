@@ -71,7 +71,7 @@ void CLegitAim::Menu()
 		if (SubtabAimMiscSelected == 0)
 		{
 			X1Gui().Spacing();
-			DCheckBox("Deathmatch", u8"�� ����", Deathmatch, u8"�������� ��� �� ����");
+			DCheckBox("Aim at teammates", u8"�� ����", Deathmatch, u8"�������� ��� �� ����");
 
 			X1Gui().SameLine(246);
 			DCheckBox("Automatic fire", u8"�����������", AutoFire, u8"");
@@ -241,7 +241,7 @@ void CLegitAim::Menu()
 			X1Gui().Separator();
 			X1Gui().Spacing();
 
-			DCheckBox("RCS standelone", u8"Rcs ���������", Weapons[GetWeap(SelectedWeapon)].RcsStandelone, u8"�������� ���������� �������� ������");
+			DCheckBox("Standalone RCS", u8"Rcs ���������", Weapons[GetWeap(SelectedWeapon)].RcsStandelone, u8"�������� ���������� �������� ������");
 
 			if (!EntityAim)
 			{
@@ -357,7 +357,7 @@ void CLegitAim::Menu()
 		{
 			DCheckBox("Trigger", u8"�������", TriggerEnable, u8"�������� �������");
 			X1Gui().SameLine(163);
-			DCheckBox("Deathmatch", u8"������� �� ����", TriggerDeathmatch, u8"�������� ������� ��  ���� �������");
+			DCheckBox("Aim at teammates", u8"������� �� ����", TriggerDeathmatch, u8"�������� ������� ��  ���� �������");
 
 			X1Gui().SameLine(360);
 			X1Gui().BeginGroup();
