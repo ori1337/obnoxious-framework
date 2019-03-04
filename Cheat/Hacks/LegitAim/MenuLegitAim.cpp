@@ -311,7 +311,7 @@ void CLegitAim::Menu()
 			X1Gui().Separator();
 			X1Gui().Spacing();
 
-			DCheckBox("First fire delay", u8"�������� ����� ������ ���������", Weapons[GetWeap(SelectedWeapon)].FirstFireDelayEnable, u8"�������� �������� ��� ������� ��������");
+			DCheckBox("First bullet delay", u8"�������� ����� ������ ���������", Weapons[GetWeap(SelectedWeapon)].FirstFireDelayEnable, u8"�������� �������� ��� ������� ��������");
 
 			if (Weapons[GetWeap(SelectedWeapon)].FirstFireDelayEnable)
 			{
