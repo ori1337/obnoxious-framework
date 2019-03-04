@@ -819,7 +819,7 @@ void CMisc::ShowSpectatorList()
 				switch (pPlayer->GetObserverMode())
 				{
 				case ObserverMode_t::OBS_MODE_IN_EYE:
-					mode = XorStr("1rd person");
+					mode = XorStr("1st person");
 					break;
 				case ObserverMode_t::OBS_MODE_CHASE:
 					mode = XorStr("3rd person");
